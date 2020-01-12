@@ -1,0 +1,43 @@
+{"pengetahuan": [
+        {"tag": "salam",
+         "patterns": ["Hi","halo","pagi", "sewa dong", "ada orang disana?", "halo", "bos","bang", "test","mau tanya dong"],
+         "responses": ["halo, ada apa?", "ada yang bisa dibantu ?"],
+         "context_set": ""
+        },
+        {"tag": "berpisah",
+         "patterns": ["Bye", "Sampai Ketemu nanti", "Sampai nanti", "dada","makasih","thanks"],
+         "responses": ["terimakaish telah berkunjung", "semoga harimu menyenangkan", "dah! dateng lagi ya"]
+        },
+        {"tag": "makasih",
+         "patterns": ["Makasih", "Terimakasih", "Sangat Membantu"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "jam",
+         "patterns": ["Jam Berapa Bukanya ya ?", "buka jam berapa ya?", "kapan bukanya ?",  "kalo mau kesana gimana?","tokonya jam brp?","bisa dateng langsung?" ],
+         "responses": ["Kita buka pukul 9 Pagi s/d 9 Malam", "Jam kerja kita jam 9 pagi sampai malem"]
+        },
+        {"tag": "mobil",
+         "patterns": ["mobilnya apa aja ya?", "Adanya mobil tipe apa?", "Apa yang tersedia?","bisa sewa mobil ga?" ],
+         "responses": ["Tolong spesifik Kami hanya menyewakan jeep, inova dan avanza ", "Kami punya mobil jeep, inova dan avanza"]
+        },
+        {"tag": "pembayaran",
+         "patterns": ["Bisa bayar pake CC?", "Bisa bayar pake mastercard?", "cuma bisa bayar cash?","bisa bayar pakai tunai?","bayarnya gimana?","pembayaran?","bayar","visa bisa?","mastercard bisa?" ],
+         "responses": ["Kami menerima VISA, Mastercard dan AMEX", "Kami menerima hampir seluruh creditcards"]
+        },
+        {"tag": "buka hari ini",
+         "patterns": ["Hari ini buka ga?", "hari ini buka jam berapa ya?", "Buka hari ini jam?"],
+         "responses": ["Kita buka pukul 9 Pagi s/d 9 Malam", "Jam kerja kita jam 9 pagi sampai malem setiap hari"]
+        },
+        {"tag": "Sewa",
+         "patterns": ["boleh sewa mobil?", "saya ingin meminjam mobil", "gimana cara pinjem mobil?","mobil dong","jeep ada?","inova ada?","avanza ada?","sewa dong" ],
+         "responses": ["Kapan mau sewa mobilnya ?"],
+         "context_set": "harisewa"
+        },
+        {"tag": "today",
+         "patterns": ["hari ini"],
+         "responses": ["untuk penyewaan hari ini hubungi 0856933346049", "oh baik untuk menyewa hubungi 085693346049"],
+         "context_filter": "harisewa"
+        }
+   ]
+}
+
