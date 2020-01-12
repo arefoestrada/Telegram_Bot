@@ -4,4 +4,4 @@ This repository was made to develop a Telegram-based bot to help car rental busi
 
 ## Author
 
-* **Arefo Estrada** - *Initial work* - [arefo.estrada](https://github.com/arefo.estrada)
+* **Arefo Estrada** - *Initial work* - [arefoestrada](https://github.com/arefoestrada)
